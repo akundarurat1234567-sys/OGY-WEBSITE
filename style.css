@@ -1,0 +1,91 @@
+
+body{
+background-image: url('gambar/fotofloat2.jpg');
+background-repeat: no-repeat;
+background-size: cover  ;
+
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+ 
+}
+
+.navbar {
+  background-color: #d67eac;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+
+}
+
+.logo {
+
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 700px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 430px;
+  transition: color 0.3s;
+  
+}
+
+.menu a:hover {
+  color: #4e4d4a;
+}
+
+.content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.content h1 {
+  margin-bottom: 50px;
+  color:  white ;
+  margin-bottom: 10px;
+  
+}
+
+.content h3 {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+
+
+.btn{
+  background-color: #ffb6c1;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+.btn:hover{
+  background-color: hotpink;
+}
+
+
+.btn1{
+ display: flex;
+      justify-content: center; 
+      margin: 0;
+      padding-top: 50px;
+}
